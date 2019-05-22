@@ -1,0 +1,22 @@
+[data-md-color-primary=blue] .md-tabs,
+[data-md-color-primary=blue] .md-header,
+[data-md-color-primary=blue] .md-hero {
+	background-color: #536dfe;
+}
+
+@media only screen and (max-width: 59.9375em) {
+	html [data-md-color-primary=blue] .md-nav--primary .md-nav__title--site,
+	[data-md-color-primary=blue] .md-nav__source {
+		background-color: #485eda;
+	}
+}
+
+.md-typeset h1, .md-typeset h2 {
+	color: #212933;
+	font-weight: 600;
+}
+
+
+.md-content__inner {
+	padding-bottom: 5em;
+}
